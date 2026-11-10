@@ -1,0 +1,21 @@
+.bureau-example { padding: 1.1rem; }
+.bureau-launchers {
+  display: grid;
+  gap: .5rem;
+  list-style: none;
+  margin: .85rem 0;
+  padding: 0;
+}
+.bureau-launchers li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: .75rem;
+  padding: .6rem .8rem;
+  border: 1px solid #476450;
+  border-radius: .4rem;
+  background: var(--night);
+}
+.bureau-launchers li > span { color: var(--orange); font: .72rem ui-monospace, monospace; }
+.bureau-launchers strong { font: 650 .95rem/1.4 Lexend, system-ui, sans-serif; }
+.bureau-launchers small { grid-column: 2; color: #d5d4ba; }

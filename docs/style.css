@@ -46,6 +46,9 @@ h1 em { color: var(--orange); font-style: normal; }
 .stage { position: relative; min-width: 0; padding: .8rem 1rem .7rem; border: 1px solid #405748; border-radius: .85rem; background: radial-gradient(ellipse at center, #1b3c2f 0%, #10281f 72%); }
 .stage-meta, figcaption { display: flex; align-items: center; gap: .55rem; justify-content: space-between; color: #d5d4ba; font: .68rem/1.4 ui-monospace, monospace; letter-spacing: .09em; }
 .stage img { width: 100%; height: auto; max-height: 24rem; object-fit: contain; margin-block: .35rem; }
+.stage-workshop { border-color: #8c613f; }
+.stage-workshop .stage-meta { color: #f8b58b; }
+.stage-workshop figcaption { padding-block: .3rem .1rem; font: .88rem/1.45 Lexend, system-ui, sans-serif; }
 figcaption { justify-content: start; }
 figcaption span { width: .35rem; height: .35rem; }
 .catalogue { padding-block: clamp(2.65rem, 6vw, 5rem); }
