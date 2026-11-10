@@ -1,11 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trucabule.fr</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Trucabule, un atelier indépendant de logiciels Windows pour organiser ses fichiers, son bureau et ses projets.">
+  <meta name="theme-color" content="#0b211c">
+  <link rel="canonical" href="https://www.trucabule.fr/">
+  <link rel="icon" href="assets/trucabule.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>Trucabule · Des trucs qui font le boulot.</title>
 </head>
 <body>
-    Bienvenu sur trucabule.fr.
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="brand" href="./"><span aria-hidden="true"></span>Trucabule</a>
+      <nav aria-label="Navigation principale">
+        <a href="#logiciels">Les logiciels</a>
+        <a href="#atelier">L’atelier</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenu">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><i aria-hidden="true"></i> Atelier indépendant de logiciels</p>
+          <h1 id="hero-title">Des trucs qui<br class="desktop-break"> font le <em>boulot.</em></h1>
+          <p class="lede">Des logiciels Windows pour mettre de l’ordre dans tes fichiers, retrouver tes outils et reprendre tes projets là où tu les avais laissés.</p>
+          <a class="button" href="#logiciels">Voir les logiciels <span aria-hidden="true">↓</span></a>
+        </div>
+        <figure class="stage">
+          <div class="stage-meta" aria-hidden="true"><span>FIG. 01</span><span>TRUCABULE / ATELIER</span></div>
+          <img src="assets/funambule.webp" width="720" height="610" alt="Le funambule de Trucabule, écharpe orange au vent, en équilibre sur son fil.">
+          <figcaption><span aria-hidden="true"></span> Le funambule</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="catalogue wrap" id="logiciels" aria-labelledby="logiciels-title">
+      <p class="eyebrow"><i aria-hidden="true"></i> Le catalogue</p>
+      <h2 id="logiciels-title">Les logiciels de l’atelier</h2>
+      <div class="cards">
+        <article class="app">
+          <div class="plate library" aria-hidden="true">
+            <svg viewBox="0 0 240 124" fill="none">
+              <path d="M50 99h141M61 96V50a16 16 0 0 1 16-16h86a16 16 0 0 1 16 16v46M65 66h110" stroke="currentColor" stroke-width="2"/>
+              <path d="M82 65V47h12v18m9 0V44h14v21m10 0-5-15 12-4 6 19m7 0V48h12v17M82 95V77h14v18m9 0V73h12v22m10 0V77h14v18m9 0 6-20 11 3-5 17" stroke="currentColor" stroke-width="2"/>
+              <path d="M120 16v12m-6-6h12" stroke="#ff9c64" stroke-width="2"/>
+              <circle cx="197" cy="41" r="3" fill="#ff9c64"/><circle cx="47" cy="64" r="2" fill="#ff9c64"/>
+            </svg>
+          </div>
+          <div class="app-body">
+            <p class="app-label">01 / Catalogue personnel</p>
+            <h3>Ma Médiathèque</h3>
+            <p>Retrouve tes livres, films et musiques même quand ils sont rangés sur plusieurs disques. Parcours tes collections, filtre par tag et retrouve le fichier depuis sa fiche.</p>
+            <a class="app-link" href="https://github.com/ugadavid/ma-librarie">Voir le projet sur GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <article class="app">
+          <div class="plate desktop" aria-hidden="true">
+            <svg viewBox="0 0 240 124" fill="none">
+              <rect x="60" y="26" width="120" height="69" rx="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M60 43h120M96 105h48m-24-10v10" stroke="currentColor" stroke-width="2"/>
+              <rect x="73" y="54" width="24" height="25" rx="3" stroke="currentColor" stroke-width="2"/>
+              <rect x="108" y="54" width="24" height="25" rx="3" stroke="currentColor" stroke-width="2"/>
+              <rect x="143" y="54" width="24" height="25" rx="3" stroke="currentColor" stroke-width="2"/>
+              <path d="m114 67 4 4 8-9m24 6h10m-5-5v10M80 67h10" stroke="#ff9c64" stroke-width="2"/>
+              <circle cx="73" cy="35" r="2" fill="#ff9c64"/>
+            </svg>
+          </div>
+          <div class="app-body">
+            <p class="app-label">02 / Lanceur Windows</p>
+            <h3>Mon Bureau</h3>
+            <p>Épingle les applications et dossiers dont tu te sers tous les jours. Lance tes scripts, ouvre un projet dans VS Code ou démarre un serveur local depuis le même tableau.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="about" id="atelier" aria-labelledby="atelier-title">
+      <div class="wrap about-inner">
+        <div>
+          <p class="eyebrow"><i aria-hidden="true"></i> Derrière le fil</p>
+          <h2 id="atelier-title">L’atelier Trucabule</h2>
+        </div>
+        <p>Trucabule est l’atelier logiciel de David. Les projets commencent souvent par une petite question du quotidien. Comment retrouver ce fichier&nbsp;? Comment rouvrir tout ce qu’il me faut pour travailler&nbsp;? Puis vient le plaisir de fabriquer l’outil.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap footer">
+    <a class="brand" href="./"><span aria-hidden="true"></span>Trucabule</a>
+    <a href="#contenu">Retour en haut <span aria-hidden="true">↑</span></a>
+  </footer>
 </body>
 </html>
